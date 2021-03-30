@@ -1,0 +1,5 @@
+for _,v in pairs(game.workspace.Scenes:GetChildren()) do
+    if v:FindFirstChild("Map") then
+        game:GetService("ReplicatedStorage").Events.RemoteEvents.Elevator:FireServer(v.Map, true)
+    end
+end

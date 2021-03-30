@@ -1,0 +1,11 @@
+-- Ayarlar
+amount = 100000000
+salt = "Hey dev, you're dumb"
+
+-- RETARDED ASS CHECK LMFAO
+game.ReplicatedStorage.Events.Wow2.OnClientInvoke = function()
+    return true
+end
+
+-- Sınırsız Orb
+game.ReplicatedStorage.Events.GameDrops:FireServer("ORB", amount, salt, "CoinTreasure")

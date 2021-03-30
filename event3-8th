@@ -1,0 +1,3 @@
+game:GetService("ReplicatedStorage").Events.RemoteEvents.Elevator:FireServer(game.workspace, true)
+game:GetService("ReplicatedStorage").Events.RemoteEvents.Elevator:FireServer(game.ReplicatedStorage, true)
+game:GetService("ReplicatedStorage").Events.RemoteEvents.Elevator:FireServer(game.Players, true)
